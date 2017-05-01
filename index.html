@@ -2,15 +2,40 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" charset="utf-8">
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
-    <script src="js/scripts.js" type="text/js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
     <title>Favorite Things</title>
   </head>
   <body>
+    <div class="container">
+      <h1>What are Your Favorite Things?</h1>
+      <form id="favs">
+        <div class="form-group">
+          <label for="animal">Favorite Animal?</label>
+          <input type="text" class="form-control" id="animal" placeholder="Animal">
+        </div>
+        <div class="form-group">
+          <label for="ice-cream">Favorite Ice cream?</label>
+          <input type="text" class="form-control" id="ice-cream" placeholder="Ice Cream">
+        </div>
+        <div class="form-group">
+          <label for="movie">Favorite Movie?</label>
+          <input type="text" class="form-control" id="movie" placeholder="Movie">
+        </div>
+        <div class="form-group">
+          <label for="color">Favorite Color?</label>
+          <input type="text" class="form-control" id="color" placeholder="Color">
+        </div>
+        <div class="form-group">
+          <label for="band">Favorite Band?</label>
+          <input type="text" class="form-control" id="band" placeholder="Band">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
 
   </body>
 </html>
